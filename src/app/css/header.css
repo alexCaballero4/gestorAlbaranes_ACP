@@ -1,0 +1,27 @@
+/* app/css/header.css */
+
+.header {
+    background-color: #1e293b; /* Fondo azul oscuro */
+    color: white;
+    padding: 1.5rem; /* Espaciado superior e inferior */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif; /* Fuente moderna */
+    font-weight: 700;
+    letter-spacing: 1px; /* Espaciado de letras */
+    text-transform: uppercase; /* Transformar el texto a mayúsculas */
+    transition: all 0.3s ease; /* Transición suave para efectos */
+  }
+  
+  .header h1:hover {
+    color: #38bdf8; /* Efecto de cambio de color al pasar el ratón */
+    letter-spacing: 3px; /* Aumentar espaciado en hover */
+  }
+  
