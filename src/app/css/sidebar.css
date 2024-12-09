@@ -1,0 +1,71 @@
+/* app/css/sidebar.css */
+
+/* Estilo principal para el sidebar */
+.sidebar {
+    background-color: #2d3748; /* Fondo oscuro */
+    color: white; /* Texto en blanco */
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%); /* Ocultar el sidebar por defecto */
+    transition: transform 0.3s ease; /* Animación suave */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    z-index: 100; /* Sobre otros elementos */
+}
+
+.sidebar.open {
+    transform: translateX(0); /* Mostrar el sidebar */
+}
+
+/* Botones del sidebar */
+.sidebar ul button {
+    text-align: left; /* Alinear texto a la izquierda */
+    width: 100%; /* Botones ocupan todo el ancho */
+    background: none; /* Sin fondo */
+    border: none; /* Sin bordes */
+    font-size: inherit; /* Usar el tamaño de fuente por defecto */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer;
+    color: white; /* Texto en blanco */
+    transition: background-color 0.2s ease; /* Transición suave */
+}
+
+.sidebar ul button:hover {
+    background-color: #4a5568; /* Fondo más claro al pasar el mouse */
+}
+
+/* Icono de cerrar el sidebar */
+.sidebar .close-btn {
+    color: #e53e3e; /* Texto rojo */
+    font-size: 1.5rem; /* Tamaño más grande */
+    cursor: pointer;
+    background-color: transparent; /* Fondo transparente por defecto */
+    border: none;
+    padding: 8px;
+    border-radius: 4px; /* Añadir bordes redondeados como otros botones */
+    transition: background-color 0.3s ease; /* Transición suave para el fondo */
+}
+
+.sidebar .close-btn:hover {
+    background-color: #9b2c2c; /* Fondo rojo oscuro al hacer hover */
+    color: white; /* Mantener el texto blanco para contraste */
+}
+
+
+
+/* Espaciado entre elementos del menú */
+.sidebar ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    border-bottom: 1px solid #4a5568; /* Línea divisoria entre opciones */
+}
+
+.sidebar li:last-child {
+    border-bottom: none; /* Sin borde en el último elemento */
+}
