@@ -1,0 +1,31 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que la página ocupe al menos la altura de la ventana */
+}
+
+.footer {
+    background-color: #334155; /* Fondo azul oscuro */
+    color: white;
+    padding: 1.5rem; /* Espaciado superior e inferior */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil hacia arriba */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: auto; /* Empuja el footer al fondo */
+}
+
+.footer p {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif; /* Fuente moderna */
+    font-weight: 400;
+    letter-spacing: 1px; /* Espaciado de letras */
+    transition: all 0.3s ease; /* Transición suave para efectos */
+}
+
+.footer p:hover {
+    color: #38bdf8; /* Efecto de cambio de color al pasar el ratón */
+    letter-spacing: 2px; /* Aumentar espaciado en hover */
+}
