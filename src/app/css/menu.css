@@ -1,0 +1,38 @@
+/* app/css/menu.css */
+
+.menu {
+    background-color: #334155; /* Fondo oscuro pero un tono más suave que el del header */
+    color: white;
+    padding: 1rem 2rem; /* Espaciado superior/inferior y lateral */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más fuerte que la del header */
+  }
+  
+  .menu .links a {
+    font-size: 1.125rem;
+    font-family: 'Poppins', sans-serif; /* Fuente similar pero con menor peso */
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: white;
+    padding: 0.5rem;
+    transition: all 0.3s ease; /* Transición suave */
+  }
+  
+  .menu .links a:hover {
+    color: #38bdf8; /* Color de texto brillante para hover */
+    letter-spacing: 1px; /* Un poco más de espacio entre letras */
+  }
+  
+  .menu .profile a {
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .menu .profile a:hover {
+    color: #38bdf8; /* Efecto de cambio de color en el perfil */
+  }
+  
