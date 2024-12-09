@@ -1,0 +1,15 @@
+/* app/css/home.css */
+
+button {
+    font-size: 1rem; /* Ajustar el tamaño del texto en los botones */
+  }
+  
+  button:hover {
+    transition: background-color 0.3s, transform 0.3s;
+    transform: translateY(-2px); /* Efecto de elevación al pasar el mouse */
+  }
+  
+  button:active {
+    transform: translateY(2px); /* Efecto al hacer click */
+  }
+  
