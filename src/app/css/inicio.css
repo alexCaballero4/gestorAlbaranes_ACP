@@ -1,0 +1,90 @@
+/* app/css/inicio.css */
+
+/* Título principal */
+.home-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1e293b; /* Azul oscuro */
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    transition: letter-spacing 0.3s ease, color 0.3s ease;
+  }
+  
+  .home-title:hover {
+    color: #38bdf8; /* Azul claro en hover */
+    letter-spacing: 2px;
+  }
+  
+  /* Descripción */
+  .home-description {
+    font-size: 1.125rem;
+    color: #475569; /* Gris oscuro */
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 600px;
+  }
+  
+  /* Imagen */
+  .home-image {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .home-image:hover {
+    transform: scale(1.05); /* Aumentar tamaño en hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Botones */
+  .home-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .home-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .home-button:hover {
+    transform: translateY(-3px); /* Elevar el botón en hover */
+  }
+  
+  /* Botón azul */
+  .home-button-blue {
+    background-color: #2563eb; /* Azul */
+    color: white;
+  }
+  
+  .home-button-blue:hover {
+    background-color: #1e40af; /* Azul oscuro */
+  }
+  
+  /* Botón verde */
+  .home-button-green {
+    background-color: #16a34a; /* Verde */
+    color: white;
+  }
+  
+  .home-button-green:hover {
+    background-color: #15803d; /* Verde oscuro */
+  }
+  
+  /* Botón rojo */
+  .home-button-red {
+    background-color: #dc2626; /* Rojo */
+    color: white;
+  }
+  
+  .home-button-red:hover {
+    background-color: #b91c1c; /* Rojo oscuro */
+  }
+  
